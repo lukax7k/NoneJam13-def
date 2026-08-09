@@ -1,0 +1,1 @@
+global.chefe_1_derrotado = true

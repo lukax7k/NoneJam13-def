@@ -1,0 +1,3 @@
+ajusta_escala()
+
+atirando()
