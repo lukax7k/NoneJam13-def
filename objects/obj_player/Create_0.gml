@@ -91,6 +91,8 @@ toma_dano = function(_dano = 1)
     
     vida -= _dano
     
+    toca_sfx(snd_dano, .2, .5)
+    
     timer_dano = tempo_dano
     
     if (vida <= 0)
@@ -142,6 +144,7 @@ atirando = function()
         if (atirar)
         {
             
+            toca_sfx(snd_tiro, .2, 2)
             
             
             switch (global.power_up_qtd_tiros + global.aumento_tiros_player) 
@@ -375,6 +378,7 @@ estado_esquiva = function()
     else 
     {
         timer_duracao_esquiva = duracao_esquiva
+        timer_dano = 40
         imune = false
         
         if (meu_dash_raio)

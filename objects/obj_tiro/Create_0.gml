@@ -28,39 +28,8 @@ efeito_choque = function(_foco)
         with (_foco) 
         {
         
-            var _range = 64
-        
-            var _lista_alvos = ds_list_create()
-            
-            var _alvos = collision_circle_list(_foco.x, _foco.y, _range, array_choque, 0, 1, _lista_alvos, 0)
-            
-            var _max_enemies = clamp(_alvos, 0, 3 + global.aumento_alcance_raio)
-            
-            
-            for (var i = 0; i < _max_enemies; i++) 
-            {
-                array_push(alvos_choque, ds_list_find_value(_lista_alvos, i))	
-            }
-            
-            timer_choque = tempo_choque
-            
-            
-            for (var i = 0; i < _max_enemies; i++) 
-            {
-            
-                var _alvo_atual = ds_list_find_value(_lista_alvos, i)
-                
-                if (instance_exists(_alvo_atual))
-                {
-                   _alvo_atual.toma_dano(1 + global.aumento_dano_raio * 2, ["raio"]) 
-                }
-                
-                	
-            }
-            
-            ds_list_destroy(_lista_alvos)
-            
-            
+            var _raio = instance_create_layer(x, y, "Efeitos", obj_efeito_raio)
+            _raio.pai = id
         }
         
         

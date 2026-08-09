@@ -71,3 +71,10 @@ function screenshake(_treme = 10)
         }
     }
 }
+
+function toca_sfx(_som, _pitch = 0, _mod = 2)
+{
+    var _pitch_var = 1 + random_range(-_pitch, _pitch)
+            
+    audio_play_sound(_som, 0, 0, global.sons / _mod, , _pitch_var)
+}

@@ -7,7 +7,7 @@ image_yscale = image_xscale
 // controle
 lista_atacados = ds_list_create()
 dano = 1
-tamanho = 1 + global.aumento_alcance_gelo
+tamanho = 2 + global.aumento_alcance_gelo
 
 #endregion
 
@@ -15,7 +15,7 @@ tamanho = 1 + global.aumento_alcance_gelo
 
 explosao = function()
 { 
-   image_xscale += .3
+   image_xscale += .4
    image_yscale = image_xscale
    
    var _colisoes = ds_list_create()

@@ -12,7 +12,7 @@ else
         timer_gelo --
         
         image_blend = c_aqua
-        max_vel = meu_max_vel - 1 + global.aumento_lentidao_gelo /2
+        max_vel = meu_max_vel - 1 - global.aumento_lentidao_gelo /2
     }
     else 
     {

@@ -244,7 +244,7 @@ global.power_ups_atuais = []
 
 function reseta_powerups()
 {
-    global.power_up_raio = false
+    global.power_up_raio = true
 
     global.power_up_fogo = false
     

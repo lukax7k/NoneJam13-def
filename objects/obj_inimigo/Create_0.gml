@@ -63,36 +63,7 @@ segue_player = function()
     }
 }
 
-efeito_choque = function()
-{
-    if (timer_choque)
-    {
-        
-        for (var i = 0; i < array_length(alvos_choque); i++) 
-        {
-            var _alvo_atual = alvos_choque[i]
-            
-            if (instance_exists(_alvo_atual))
-            {
-                var _dist = point_distance(x, y, _alvo_atual.x, _alvo_atual.y)
-                var _ang = point_direction(x, y, _alvo_atual.x, _alvo_atual.y)
-                
-                var _sprite_h = sprite_get_height(spr_efeito_raio);
-                var _yscale = _dist / _sprite_h;
-                
-                
-                draw_sprite_ext(spr_efeito_raio, timer_choque, x, y, 1, _yscale, _ang + 90, c_white, .8)
-            }
-            
-        }
-        
-        timer_choque --
-    }
-    else 
-    {
-        alvos_choque = []	
-    }
-}
+
 
 efeito_gelo = function()
 {

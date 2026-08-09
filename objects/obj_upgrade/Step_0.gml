@@ -58,6 +58,8 @@ if (_mouse_sobre)
     
     if (_mouse_click)
     {
+        
+        toca_sfx(snd_click, .1, 2)
      
         var _compra = false
         

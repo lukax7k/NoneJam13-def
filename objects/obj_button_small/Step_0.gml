@@ -21,6 +21,9 @@ if (position_meeting(mouse_x, mouse_y, id))
     
     if (mouse_check_button_released(mb_left))
     {
+        
+        toca_sfx(snd_click, .1, 2)
+        
         switch (tipo) 
         {
             case "musica":
@@ -44,6 +47,8 @@ if (position_meeting(mouse_x, mouse_y, id))
         
             case "sons":
             {
+                
+                
                 if (valor == 1)
                 {
                     if (global.sons < 1)

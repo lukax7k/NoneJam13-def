@@ -10,11 +10,11 @@ timer_invoca_monstro = 0
 tempo_invoca_item = 240
 timer_invoca_item = 0
 
-monstros_por_spawn = 3
+monstros_por_spawn = 2
 itens_por_spawn = 3
 
 
-tempo_wave = game_get_speed(gamespeed_fps) * 2
+tempo_wave = game_get_speed(gamespeed_fps) * 25
 timer_wave = tempo_wave
 
 invoquei_boss = false

@@ -74,6 +74,8 @@ if (position_meeting(mouse_x, mouse_y, id))
     if (mouse_check_button_released(mb_left))
     {
         
+        toca_sfx(snd_click, .1, 2)
+        
         switch (opcao) 
         {
         
