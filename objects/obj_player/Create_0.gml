@@ -97,6 +97,8 @@ toma_dano = function(_dano = 1)
     
     if (vida <= 0)
     {
+        toca_sfx(snd_player_morre, .1, 3)
+        
         obj_camera.alvo = noone
         global.game_over = true
         global.player_loose = true
@@ -144,7 +146,7 @@ atirando = function()
         if (atirar)
         {
             
-            toca_sfx(snd_tiro, .2, 2)
+            toca_sfx(snd_tiro, .2, 3)
             
             
             switch (global.power_up_qtd_tiros + global.aumento_tiros_player) 
@@ -352,7 +354,16 @@ estado_andando = function()
 estado_esquiva = function()
 {
     troca_sprite(spr_player_dash)
- 
+    
+    toca_sfx(snd_dash, .1, 3)
+    
+    var _rastro = instance_create_depth(x, y, depth + 2, obj_rastro_tiro)
+    _rastro.spr = spr_player_dash
+    _rastro.sub = image_number
+    _rastro.xscale = abs(image_xscale) 
+    _rastro.yscale = image_yscale 
+    _rastro.lado = velh >= 0 ? 1 : -1
+    
     imune = true
     
     if (global.power_up_dash_raio)

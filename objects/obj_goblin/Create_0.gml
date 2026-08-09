@@ -43,6 +43,8 @@ explodir = function()
 
 toma_dano = function(_dano = 1, _tipo_dano = ["fisico"])
 {
+    toca_sfx(snd_dano_inimigo, .2, 3)
+    
     timer_pisca = tempo_pisca
     
     if (array_contains(_tipo_dano, "raio"))
@@ -99,6 +101,8 @@ dropa_item = function()
                 
                 var _moeda_atualizada = _moeda + _dropou
                 
+                toca_sfx(snd_coin, .1, 3)
+                
                 variable_global_set(_drop_atual.drop, _moeda_atualizada)
             }
         }
@@ -113,6 +117,8 @@ dropa_item = function()
                 var _moeda = variable_global_get(_drop_atual.drop)
                 
                 var _moeda_atualizada = _moeda + _dropou
+                
+                toca_sfx(snd_coin, .1, 3)
                 
                 variable_global_set(_drop_atual.drop, _moeda_atualizada)
             }

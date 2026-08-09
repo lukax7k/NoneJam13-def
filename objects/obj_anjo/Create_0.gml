@@ -57,6 +57,8 @@ ajusta_escala = function()
 
 toma_dano = function(_dano = 1, _tipo_dano = ["fisico"])
 {
+    toca_sfx(snd_dano_inimigo, .2, 3)
+    
     timer_pisca = tempo_pisca
     
     if (array_contains(_tipo_dano, "raio"))

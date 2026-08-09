@@ -7,6 +7,8 @@ else
 {
     direction += lado
     speed = 5
+    var _rastro = instance_create_depth(x, y, depth + 10, obj_rastro_tiro)
+    _rastro.spr = sprite_index
 }
 
 ajusta_depth()

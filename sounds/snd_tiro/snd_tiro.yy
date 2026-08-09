@@ -8,9 +8,9 @@
   "bitDepth":1,
   "channelFormat":0,
   "compression":0,
-  "compressionQuality":4,
+  "compressionQuality":2,
   "conversionMode":0,
-  "duration":0.09730159,
+  "duration":0.36571875,
   "exportDir":"",
   "name":"snd_tiro",
   "parent":{
@@ -20,7 +20,7 @@
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
-  "sampleRate":44100,
-  "soundFile":"snd_tiro.wav",
+  "sampleRate":32000,
+  "soundFile":"snd_tiro.mp3",
   "volume":1.0,
 }

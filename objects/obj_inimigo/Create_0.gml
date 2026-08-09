@@ -148,6 +148,8 @@ dropa_item = function()
             
             var _moeda_atualizada = _moeda + _dropou
             
+            toca_sfx(snd_coin, .1, 3)
+            
             variable_global_set(_drop_atual.drop, _moeda_atualizada)
         }	
     }

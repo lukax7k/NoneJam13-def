@@ -4,8 +4,12 @@ layer_set_visible("ui_config", 0)
 global.tela_power_up = false
 global.mostra_saves = false
 
+
 musica_atual = noone
 modificador = 0
+ang = 0
+
+window_set_cursor(cr_none)
 
 controla_fullscreen = function()
 {

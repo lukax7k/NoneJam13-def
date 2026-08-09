@@ -8,6 +8,8 @@ else
     if (instance_exists(obj_player))
     direction = point_direction(x, y, obj_player.x, obj_player.y)
     speed = 3
+    var _rastro = instance_create_depth(x, y, depth + 10, obj_rastro_tiro)
+    _rastro.spr = sprite_index
 }
 
 ajusta_depth()

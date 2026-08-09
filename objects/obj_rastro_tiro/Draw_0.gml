@@ -1,0 +1,1 @@
+draw_sprite_ext(spr, sub, x, y, xscale * lado, yscale, 0, c_white, image_alpha)

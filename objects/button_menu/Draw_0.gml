@@ -15,6 +15,8 @@ if (opcao == "Apagar")
 
 draw_sprite_ext(_spr, mouse_on, x, y, xscale, 1.2, 0, c_white, 1)
 
+gpu_set_tex_filter(false);
+
 draw_set_font(fnt_texto)
 draw_set_halign(1)
 draw_set_valign(1)
