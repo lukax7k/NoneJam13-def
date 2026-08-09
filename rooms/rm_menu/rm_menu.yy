@@ -16,6 +16,7 @@
     {"name":"inst_691675DA","path":"rooms/rm_menu/rm_menu.yy",},
     {"name":"inst_4B25A7B2","path":"rooms/rm_menu/rm_menu.yy",},
     {"name":"inst_2E9455FB","path":"rooms/rm_menu/rm_menu.yy",},
+    {"name":"inst_6E3D4A8A","path":"rooms/rm_menu/rm_menu.yy",},
     {"name":"inst_2D7EB2B2","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"inst_58408BB6","path":"roomui/RoomUI/RoomUI.yy",},
     {"name":"inst_1683F5B1","path":"roomui/RoomUI/RoomUI.yy",},
@@ -61,6 +62,7 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"button_menu","path":"objects/button_menu/button_menu.yy",},"propertyId":{"name":"origin_x","path":"objects/button_menu/button_menu.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"-48",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":2.0,"scaleY":1.2,"x":-48.0,"y":24.0,},
         {"$GMRInstance":"v4","%Name":"inst_2E9455FB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2E9455FB","objectId":{"name":"obj_titulo","path":"objects/obj_titulo/obj_titulo.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":16.0,"y":0.0,},
+        {"$GMRInstance":"v4","%Name":"inst_6E3D4A8A","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6E3D4A8A","objectId":{"name":"obj_particle","path":"objects/obj_particle/obj_particle.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":32.0,"y":0.0,},
       ],"layers":[],"name":"Instances_1","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":100,"effectEnabled":true,"effectType":null,"gridX":8,"gridY":8,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_3DE18FBE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_3DE18FBE","objectId":{"name":"obj_controle","path":"objects/obj_controle/obj_controle.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},

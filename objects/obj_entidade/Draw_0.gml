@@ -1,5 +1,6 @@
 #region Efeito de piscar e draw_self
 
+
 if (timer_pisca)
 {
     timer_pisca --
