@@ -36,5 +36,5 @@
     "path":"sprites/spr_dano_dash_raio/spr_dano_dash_raio.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

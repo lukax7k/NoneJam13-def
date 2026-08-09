@@ -10,7 +10,7 @@ timer_invoca_monstro = 0
 tempo_invoca_item = 240
 timer_invoca_item = 0
 
-monstros_por_spawn = 2
+monstros_por_spawn = 1
 itens_por_spawn = 3
 
 
@@ -388,12 +388,23 @@ controla_level = function()
                 }
                 else 
                 {
+                    if (!global.player_win)
+                    {
+                        toca_sfx(snd_nivel_completo, 0, 3)
+                    }
+                    
                 	global.game_over = true
                     global.player_win = true
                 }
             }
             else 
             {
+                if (!global.player_win)
+                {
+                    toca_sfx(snd_nivel_completo, 0, 3)
+                }
+                    
+                
             	global.game_over = true
                 global.player_win = true
             }

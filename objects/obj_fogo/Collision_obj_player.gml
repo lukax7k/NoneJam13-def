@@ -1,0 +1,1 @@
+toca_sfx(snd_burn, .2, 1)

@@ -1,5 +1,6 @@
 #region Variáveis
 
+image_alpha = .5
 
 // controle
 lista_atacados = ds_list_create()

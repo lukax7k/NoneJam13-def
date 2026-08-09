@@ -17,7 +17,7 @@ max_vel = meu_max_vel
 
 dano = 2
 
-meu_drop = [{drop : "gold", chance : 50, n_min : 6, n_max : 12}, {drop : "bones", chance : 40, n_min : 4, n_max : 9}]
+meu_drop = [{drop : "gold", chance : 50, n_min : 8, n_max : 15}, {drop : "bones", chance : 40, n_min : 5, n_max : 10}]
 
 #endregion
 
@@ -26,7 +26,7 @@ meu_drop = [{drop : "gold", chance : 50, n_min : 6, n_max : 12}, {drop : "bones"
 toma_dano = function(_dano = 1, _tipo_dano = ["fisico"])
 {
     
-    toca_sfx(snd_dano_inimigo, .2, 3)
+    toca_sfx(snd_dano_inimigo, .2, 4)
     
     timer_pisca = tempo_pisca
     

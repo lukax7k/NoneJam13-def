@@ -59,7 +59,7 @@ if (_mouse_sobre)
     if (_mouse_click)
     {
         
-        toca_sfx(snd_click, .1, 2)
+        
      
         var _compra = false
         
@@ -76,6 +76,8 @@ if (_mouse_sobre)
             {
                 variable_global_set(moeda, _dinheiro - _custo_atual)
                 variable_global_set(moeda_2, _dinheiro_2 - _custo_atual_2)
+                
+                toca_sfx(snd_shop, .1, 2)
                 
                 _compra = true
                 

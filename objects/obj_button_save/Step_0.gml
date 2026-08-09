@@ -85,6 +85,8 @@ if (position_meeting(mouse_x, mouse_y, id))
         
                 carrega_jogo()
                 
+                toca_sfx(snd_entra_save, 0, 4)
+                
                 room_transition(rm_mapa, tr_diagonal_right, 60)	
             }
             break
@@ -96,6 +98,8 @@ if (position_meeting(mouse_x, mouse_y, id))
                 global.save_atual = save_id
         
                 carrega_jogo()
+                
+                toca_sfx(snd_entra_save, 0, 4)
                 
                 room_transition(rm_cinematica_0, tr_diagonal_right, 60)	
             }
@@ -110,6 +114,7 @@ if (position_meeting(mouse_x, mouse_y, id))
             case "Confirmar":
             {
                 file_delete(string("sunnysave{0}.json", save_id))
+                toca_sfx(snd_deleta_save, 0, 4)
                 opcao = "Novo jogo"
                 global.apagar_saves = false
             }

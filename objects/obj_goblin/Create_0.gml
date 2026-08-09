@@ -13,7 +13,7 @@ dano = 3
 meu_max_vel = random_range(2, 2.5) + global.wave / 7
 max_vel = meu_max_vel
 
-meu_drop = [{drop : "gold", chance : 50, n_min : 9, n_max : 15}, {drop : "claw", chance : 40, n_min : 7, n_max : 12}]
+meu_drop = [{drop : "gold", chance : 50, n_min : 10, n_max : 17}, {drop : "claw", chance : 40, n_min : 7, n_max : 12}]
 
 #endregion
 
@@ -43,7 +43,7 @@ explodir = function()
 
 toma_dano = function(_dano = 1, _tipo_dano = ["fisico"])
 {
-    toca_sfx(snd_dano_inimigo, .2, 3)
+    toca_sfx(snd_dano_inimigo, .2, 4)
     
     timer_pisca = tempo_pisca
     

@@ -57,6 +57,11 @@ efeito_choque = function()
                 var _sprite_h = sprite_get_height(spr_efeito_raio);
                 var _yscale = _dist / _sprite_h;
                 
+                if (array_length(alvos_choque) > 0)
+                {
+                    toca_sfx(snd_shock, .3, 5)
+                }
+                
                 
                 draw_sprite_ext(spr_efeito_raio, timer_choque, x, y, 1, _yscale, _ang + 90, c_white, .8)
             }

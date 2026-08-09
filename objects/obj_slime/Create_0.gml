@@ -15,7 +15,7 @@ max_vel = meu_max_vel
 dano = 1
 
 // drops
-meu_drop = [{drop : "gold", chance : 50, n_min : 3, n_max : 9}, {drop : "slime", chance : 40, n_min : 2, n_max : 5}]
+meu_drop = [{drop : "gold", chance : 50, n_min : 5, n_max : 12}, {drop : "slime", chance : 40, n_min : 3, n_max : 8}]
 
 #endregion
 
@@ -25,7 +25,7 @@ toma_dano = function(_dano = 1, _tipo_dano = ["fisico"])
 {
     timer_pisca = tempo_pisca
     
-    toca_sfx(snd_dano_inimigo, .2, 3)
+    toca_sfx(snd_dano_inimigo, .2, 4)
     
     if (array_contains(_tipo_dano, "raio"))
     {

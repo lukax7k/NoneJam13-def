@@ -10,6 +10,8 @@ lista_atacados = ds_list_create()
 dano = 1
 tamanho = 2 + global.aumento_alcance_vento /2
 
+toca_sfx(snd_wind, .2, 2)
+
 #endregion
 
 #region Funções

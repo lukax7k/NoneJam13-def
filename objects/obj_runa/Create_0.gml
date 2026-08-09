@@ -39,6 +39,7 @@ escolhe_runa = function()
             
             array_delete(global.powerups_disponiveis, _num, 1)
             
+            toca_sfx(snd_pega_runa, .2, 1)
             
             if (instance_exists(obj_jogo))
             {

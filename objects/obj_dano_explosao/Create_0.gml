@@ -3,11 +3,14 @@
 // imagem
 image_xscale = .1
 image_yscale = image_xscale
+image_alpha = .3
 
 // controle
 lista_atacados = ds_list_create()
 dano = 1
 tamanho = 1.5
+
+toca_sfx(snd_explosao, .2, 3)
 
 #endregion
 

@@ -3,11 +3,14 @@
 // imagem
 image_xscale = .1
 image_yscale = image_xscale
+image_alpha = .3
 
 // controle
 lista_atacados = ds_list_create()
 dano = 1
 tamanho = 2 + global.aumento_alcance_gelo
+
+toca_sfx(snd_ice, .2, 1)
 
 #endregion
 

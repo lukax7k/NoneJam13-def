@@ -114,7 +114,7 @@ pega_input = function()
     left = keyboard_check(vk_left)
     right = keyboard_check(vk_right)
     atirar = mouse_check_button(mb_left)
-    esquiva = mouse_check_button(mb_right)
+    esquiva = mouse_check_button(mb_right) or keyboard_check_pressed(vk_space)
 }
 
 efeito_espinhos = function()
@@ -363,6 +363,11 @@ estado_esquiva = function()
     _rastro.xscale = abs(image_xscale) 
     _rastro.yscale = image_yscale 
     _rastro.lado = velh >= 0 ? 1 : -1
+    
+    if (global.power_up_dash_raio)
+    {
+        _rastro.image_blend = c_fuchsia
+    }
     
     imune = true
     

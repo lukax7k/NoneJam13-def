@@ -9,7 +9,7 @@ image_yscale = 2
 colisoes = [obj_chao, obj_item_colisao]
 
 // atributos
-vida_max = 2000
+vida_max = 1700
 vida = vida_max
 vida_feedback = vida
 
@@ -55,7 +55,7 @@ ajusta_escala = function()
 
 toma_dano = function(_dano = 1, _tipo_dano = ["fisico"])
 {
-    toca_sfx(snd_dano_inimigo, .2, 3)
+    toca_sfx(snd_dano_inimigo, .2, 4)
     
     timer_pisca = tempo_pisca
     
