@@ -12,7 +12,7 @@ tempo_tiro = 150
 timer_tiro = 0
 
 // movimento
-meu_max_vel = random_range(1.5, 2) + global.wave / 7
+meu_max_vel = random_range(1.4, 1.8) + global.wave / 7
 max_vel = meu_max_vel
 
 dano = 2

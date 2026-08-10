@@ -18,17 +18,7 @@ else
     
     #endregion
     
-    if (timer_lento)
-    {
-        timer_lento --
-        image_blend = c_lime
-        max_vel = meu_max_vel/2
-    }
-    else 
-    {
-        image_blend = c_white
-        max_vel = meu_max_vel
-    }
+    
 
 
     #region Colisão e movimento
@@ -52,6 +42,18 @@ else
     {
         velh = lerp(velh, 0, acel)
         velv = lerp(velv, 0, acel)	
+    }
+    
+    if (timer_lento)
+    {
+        timer_lento --
+        image_blend = c_lime
+        max_vel = meu_max_vel/2
+    }
+    else 
+    {
+        image_blend = c_white
+        max_vel = meu_max_vel
     }
     
     #endregion

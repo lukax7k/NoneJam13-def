@@ -4,13 +4,13 @@ event_inherited();
 #region Variáveis
 
 // atributos
-vida_max = 1 + global.wave * 2
+vida_max = 2 + global.wave
 vida = vida_max
 
 minha_poca = obj_poca_slime
 
 // movimento
-meu_max_vel = random_range(1.2, 1.7) + global.wave / 7
+meu_max_vel = random_range(1., 1.3) + global.wave / 7
 max_vel = meu_max_vel
 dano = 1
 

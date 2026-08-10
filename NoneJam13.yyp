@@ -391,7 +391,6 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"rm_cinematica_final","path":"rooms/rm_cinematica_final/rm_cinematica_final.yy",},},
     {"roomId":{"name":"rm_menu","path":"rooms/rm_menu/rm_menu.yy",},},
     {"roomId":{"name":"rm_mapa","path":"rooms/rm_mapa/rm_mapa.yy",},},
     {"roomId":{"name":"rm_skilltree","path":"rooms/rm_skilltree/rm_skilltree.yy",},},
@@ -421,6 +420,7 @@
     {"roomId":{"name":"rm_cinematica_0","path":"rooms/rm_cinematica_0/rm_cinematica_0.yy",},},
     {"roomId":{"name":"rm_cinematica_4","path":"rooms/rm_cinematica_4/rm_cinematica_4.yy",},},
     {"roomId":{"name":"rm_agradecimentos","path":"rooms/rm_agradecimentos/rm_agradecimentos.yy",},},
+    {"roomId":{"name":"rm_cinematica_final","path":"rooms/rm_cinematica_final/rm_cinematica_final.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

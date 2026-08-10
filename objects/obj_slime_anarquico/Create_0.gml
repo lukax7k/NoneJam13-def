@@ -9,7 +9,7 @@ image_yscale = 2
 colisoes = [obj_chao, obj_item_colisao]
 
 // atributos
-vida_max = 1700
+vida_max = 1800
 vida = vida_max
 vida_feedback = vida
 
@@ -17,7 +17,7 @@ tempo_tiro = 90
 timer_tiro = 0
 
 // movimento
-meu_max_vel = 2
+meu_max_vel = 1.8
 max_vel = meu_max_vel
 
 dano = 2

@@ -10,7 +10,7 @@ range = 30
 dano = 3
 
 // movimento
-meu_max_vel = random_range(2, 2.5) + global.wave / 7
+meu_max_vel = random_range(1.8, 2.2) + global.wave / 7
 max_vel = meu_max_vel
 
 meu_drop = [{drop : "gold", chance : 50, n_min : 10, n_max : 17}, {drop : "claw", chance : 40, n_min : 7, n_max : 12}]

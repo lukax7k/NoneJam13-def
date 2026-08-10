@@ -9,7 +9,7 @@ image_yscale = 2
 colisoes = [obj_chao, obj_item_colisao]
 
 // atributos
-vida_max = 20000
+vida_max = 18000
 vida = vida_max
 vida_feedback = vida
 

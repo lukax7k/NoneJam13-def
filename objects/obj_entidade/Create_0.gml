@@ -75,7 +75,7 @@ checa_piso = function()
     
     var _piso = "nada"
     
-    if (_slime)
+    if (_slime != noone)
     {
         _piso = "slime"
     }
