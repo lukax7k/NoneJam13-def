@@ -190,8 +190,18 @@ if (text_index > _tamanho_txt)
             global.level_3b_completo = true
         }
         
-        room_transition(rm_mapa, tr_diagonal_right, 60)
-        salvar_jogo()
+        if (room == rm_cinematica_final or room == rm_cinematica_final_a or room == rm_cinematica_final_b)
+        {
+            room_transition(rm_agradecimentos, tr_diagonal_right, 60)
+            salvar_jogo()
+        }
+        else 
+        {
+        	room_transition(rm_mapa, tr_diagonal_right, 60)
+            salvar_jogo()
+        }
+        
+        
     }
     
 }
